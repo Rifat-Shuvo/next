@@ -5,8 +5,8 @@ import Banner from './components/Banner';
 import Popular from './components/Popular';
 import Why from './components/Why';
 import Buy from './components/Buy';
-import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
+import Testimonial from './components/Testimonial';
 
 const page = () => {
   return (
@@ -16,8 +16,8 @@ const page = () => {
       <Banner></Banner>
       <Popular></Popular>
       <Why></Why>
-      <Buy></Buy>
       <Testimonial></Testimonial>
+      <Buy></Buy>
       <Footer></Footer>
     </div>
   );

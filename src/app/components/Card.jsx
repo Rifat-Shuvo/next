@@ -4,7 +4,7 @@ import React from 'react';
 
 const Card = ({src, title, desc,link}) => {
     return (
-        <div className="card md:p-4 glass">
+        <div className="card cards md:p-4 glass shadow-xl">
             <figure className='md:h-[360px]'>
                 <Image src={src} alt='cardimage'/>
             </figure>
